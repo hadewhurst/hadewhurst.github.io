@@ -2,10 +2,10 @@
 layout: post
 title: Boothroyd Dewhurst Inc.
 
-cover-img: /assets/img/DFMA_Logo.jpg
-thumbnail-img: /assets/img/thumb.png
+
+thumbnail-img: /assets/img/DFMA_Logo.jpg
 share-img: /assets/img/path.jpg
-tags: [books, test]
+
 ---
 
 During the summer of 2019 I worked for Boothroyd Dewhurst Inc. (BDI) under the R&D manager, Brian Rapoza. I worked with Brian to write Excel based macros
