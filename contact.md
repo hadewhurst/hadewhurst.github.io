@@ -1,7 +1,6 @@
 ---
 layout: page
 
-
 ---
 
-Contact: Harrison.Dewhurst@gmail.com
+   Contact: Harrison.Dewhurst@gmail.com
