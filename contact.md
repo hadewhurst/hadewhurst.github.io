@@ -1,6 +1,7 @@
 ---
 layout: page
-sub-title: Contact Me
+title:
+subtitle: Contact Me
 
 ---
 
