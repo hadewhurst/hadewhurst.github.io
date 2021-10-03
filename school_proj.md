@@ -9,7 +9,7 @@ to develop a robot that can tie simple knots, using Arduino microcontrollers and
 strands of suture and tie the simple knot. This will improve consistency of the knots, and the efficiency of the process. 
 
 _More info and updates soon to come as the project progresses_ 
-Check out [Medtronic](https://www.medtronic.com/us-en/index.html) to find out more about the company.
+Check out <a href="https://www.medtronic.com/us-en/index.html/" target="_blank">Medtronic</a> to find out more about the company.
 
 
 **CATSMEOW Design Project**
