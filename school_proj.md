@@ -16,7 +16,7 @@ Design, build, instrument and operate a ‘3-cylinder’ solenoid engine. A sole
   
 My team decided to go ahead with a radial engine design with the three solenoids positioned at 120 degrees to one another all connected to the same crank on the crank shaft. We designed and modeled the engine in SolidWorks and then spend time ordering parts, 3D printing parts, and manufacturing parts in the machine shop. 
 
-Once the hardware was designed we had to do the electrical design with the simple user interface of an on off switch as well as a simple power jack to plug the 12V power supply into. We used three MOSFET transistors to direct the current to the desired solenoids at the right time as well as an LCD screen and a photogate to know when to fire which solenoid. The "brains" behind the engine was Arduino which was the third part of this project. The code was designed and tested to run the engine and print the rpm of the flywheel on the LCD screen. Our engine's max speed is 790 rpm.
+Once the hardware was designed we had to do the electrical design with the simple user interface of an on off switch as well as a simple power jack to plug the 12V power supply into. We used three MOSFET transistors to direct the current to the desired solenoids at the right time as well as an LCD screen and a photogate to know when to fire which solenoid. The "brains" behind the engine was Arduino which was the third part of this project. The code was designed and tested to run the engine and print the rpm of the flywheel on the LCD screen. Our engine's max speed is 790 rpm. Click [here](/assets/Engine_Video.mov) to see a video of the running engine!
 
 **Solar Tracker Project**
 
@@ -28,6 +28,8 @@ Myself and my partner designed our solar tracker in SolidWorks knowing that we n
 The three photocells are in a fixture that holds them in place but separates them by a wall so that if the light is more intense on one side then only one of the photocells will see that light. For example if the light is more intense on the right side, that photocell will see more light, decreasing the resistance and therefore increasing the voltage in the voltage divider. In the Arduino code there are conditional statements that say if the voltage coming from this photocell is larger then move the servos in that direction until the voltage is the same from all photocells. The voltage of the the photocells will be the same when they are all three pointing directly at the light source which is the goal of this solar tracker.
 
 We used a shield on the Arduino that allows you to write data to a SD card. We tracked the solar panel data from a 6V, 1W solar panel over the course of the day.
+
+See our [tech sheet](/assets/img/Solar_Tracker.pdf).
 
 
 **CATSMEOW Design Project**
@@ -45,7 +47,7 @@ Worked in a team to design, simulate, prototype, and fabricate a DC, multi-outpu
 earlier in the semester that required 9V, an Xbox controller that required 3V, and also an LED. We used software's such as MultiSim to simulate the circuit
 before we sent it out to be printed, also Pad2Pad to draw the desired PCB and have it manufactured. We used tools such as the Elvis II breadboard to 
 conduct initial research into the circuit and different parts needed. Once the PCB's arrived we soldered them by hand and tested the boards to check for
-functionality. Ours Worked! Check it out [here](/assets/img/CircuitProj.jpg)
+functionality. Ours Worked! Check it out [here](/assets/img/CircuitProj.jpg). And the [PCB](/assets/PCB.jpg).
 
 
 **Thermodynamics Combined Power Cycle Project**
