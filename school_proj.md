@@ -4,12 +4,26 @@ layout: page
 ---
 **Medtronic Robot Design project**
 
-The senior project that I have chosen to work on this academic year is sponsored by Medtronic. My team and I will be working with them
-to develop a robot that can tie simple knots, using Arduino microcontrollers and other electromechanical components. The robot will pick up pre-cut
-strands of suture and tie the simple knot. This will improve consistency of the knots, and the efficiency of the process. 
+  My senior design project is to create a robot that can tie simple knots in medical suture. This project is being sponsored by Medtronic and will be used by their test engineering team. Medtronic manufactures and tests suture. One of the tests they need to do is a tensile test to obtain data on some different material properties. To perform a tensile test on the suture there needs to be a simple overhand knot tied in the suture. Right now, they have employees tying knots in the suture which takes up a lot of time and money so the Medtronic test team has tasked my team and myself with creating a robot that can tie the knots for them.
 
 _More info and updates soon to come as the project progresses_ 
 Check out <a href="https://www.medtronic.com/us-en/index.html/" target="_blank">Medtronic</a> to find out more about the company.
+
+
+**Solenoid Engine Design Project**
+
+  Design, build, instrument and operate a ‘3-cylinder’ solenoid engine. A solenoid engine is a very simple device: a flywheel is kinematically connected to a solenoid via a series of linkages, and kept in motion by energizing the solenoid at a very precise instance within the rotation of the flywheel. My team decided to go ahead with a radial engine design with the three solenoids positioned at 120 degrees to one another all connected to the same crank on the crank shaft. We designed and modeled the engine in SolidWorks and then spend time ordering parts, 3D printing parts, and manufacturing parts in the machine shop. Once the hardware was designed we had to do the electrical design with the simple user interface of an on off switch as well as a simple power jack to plug the 12V power supply into. We used three MOSFET transistors to direct the current to the desired solenoids at the right time as well as an LCD screen and a photogate to know when to fire which solenoid. The "brains" behind the engine was Arduino which was the third part of this project. The code was designed and tested to run the engine and print the rpm of the flywheel on the LCD screen. Our engine's max speed is 790 rpm.
+
+**Solar Tracker Project**
+
+Design, build, instrument and operate a 2-DOF solar tracker that measures and logs power output data
+from a solar panel. A solar tracker is a device which ensures that a solar panel maintains direct orientation to the sun. This can be accomplished with 2 degree-of-freedom motion and a light-sensing scheme.
+
+Myself and my partner designed our solar tracker in SolidWorks knowing that we needed to laser cut all of the pieces of the design out of 1/8th inch acrylic. This was a challenge because every piece has to be flat out of the same piece of stock acrylic. We used three photocells in voltage dividers so that Arduino can read the differences in voltage with the differences in resistances that the photocells produce the the differences in light.
+
+The three photocells are in a fixture that holds them in place but separates them by a wall so that if the light is more intense on one side then only one of the photocells will see that light. For example if the light is more intense on the right side, that photocell will see more light, decreasing the resistance and therefore increasing the voltage in the voltage divider. In the Arduino code there are conditional statements that say if the voltage coming from this photocell is larger then move the servos in that direction until the voltage is the same from all photocells. The voltage of the the photocells will be the same when they are all three pointing directly at the light source which is the goal of this solar tracker.
+
+We used a shield on the Arduino that allows you to write data to a SD card. We tracked the solar panel data from a 6V, 1W solar panel over the course of the day.
 
 
 **CATSMEOW Design Project**
