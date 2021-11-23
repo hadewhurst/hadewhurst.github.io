@@ -12,7 +12,11 @@ Check out <a href="https://www.medtronic.com/us-en/index.html/" target="_blank">
 
 **Solenoid Engine Design Project**
 
-  Design, build, instrument and operate a ‘3-cylinder’ solenoid engine. A solenoid engine is a very simple device: a flywheel is kinematically connected to a solenoid via a series of linkages, and kept in motion by energizing the solenoid at a very precise instance within the rotation of the flywheel. My team decided to go ahead with a radial engine design with the three solenoids positioned at 120 degrees to one another all connected to the same crank on the crank shaft. We designed and modeled the engine in SolidWorks and then spend time ordering parts, 3D printing parts, and manufacturing parts in the machine shop. Once the hardware was designed we had to do the electrical design with the simple user interface of an on off switch as well as a simple power jack to plug the 12V power supply into. We used three MOSFET transistors to direct the current to the desired solenoids at the right time as well as an LCD screen and a photogate to know when to fire which solenoid. The "brains" behind the engine was Arduino which was the third part of this project. The code was designed and tested to run the engine and print the rpm of the flywheel on the LCD screen. Our engine's max speed is 790 rpm.
+Design, build, instrument and operate a ‘3-cylinder’ solenoid engine. A solenoid engine is a very simple device: a flywheel is kinematically connected to a solenoid via a series of linkages, and kept in motion by energizing the solenoid at a very precise instance within the rotation of the flywheel. 
+  
+My team decided to go ahead with a radial engine design with the three solenoids positioned at 120 degrees to one another all connected to the same crank on the crank shaft. We designed and modeled the engine in SolidWorks and then spend time ordering parts, 3D printing parts, and manufacturing parts in the machine shop. 
+
+Once the hardware was designed we had to do the electrical design with the simple user interface of an on off switch as well as a simple power jack to plug the 12V power supply into. We used three MOSFET transistors to direct the current to the desired solenoids at the right time as well as an LCD screen and a photogate to know when to fire which solenoid. The "brains" behind the engine was Arduino which was the third part of this project. The code was designed and tested to run the engine and print the rpm of the flywheel on the LCD screen. Our engine's max speed is 790 rpm.
 
 **Solar Tracker Project**
 
