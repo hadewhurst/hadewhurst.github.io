@@ -2,6 +2,21 @@
 layout: page
 
 ---
+
+---
+layout: post
+title: Boothroyd Dewhurst Inc.
+
+
+thumbnail-img: /assets/img/DFMA_Logo.jpg
+
+
+---
+
+During the summer of 2019 I worked at Boothroyd Dewhurst Inc. (BDI) in Wakefield, RI. Here, I supported the Research and Development manager, Brian Rapoza. I collaborated with Brian to write Excel based macros to develop a cost model for the metal extrusion manufacturing process that BDI was implementing into their software (DFMA). We were looking to implement a way to check if the DFMA software was “correct” when performing cost modeling using metal extrusion. The Excel Macros I developed is the tool they used . Here is where my interest peaked in the combination of programming and mechanical engineering. This then sparked my excitement into computer science, and resulted in a minor at Quinnipiac University. <br>
+[View Some of My Code](/assets/img/Code_Picure.PNG) <br> [Check Out the Final Report](/assets/img/Final_Report.PNG)
+
+
 **Medtronic Robot Design project**
 
   My senior design project is to create a robot that can tie simple knots in medical suture. This project is being sponsored by Medtronic and will be used by their test engineering team. Medtronic manufactures and tests suture. One of the tests they need to do is a tensile test to obtain data on some different material properties. To perform a tensile test on the suture there needs to be a simple overhand knot tied in the suture. Right now, they have employees tying knots in the suture which takes up a lot of time and money so the Medtronic test team has tasked my team and myself with creating a robot that can tie the knots for them.
